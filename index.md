@@ -161,7 +161,7 @@ article .begin-examples ~ .highlight {
 <div class="end-examples"></div>
 
 # Conclusion
-This example and the [source][src] intentionally keep any other fancy styling to a minimum, but it is very easy to style the two column layout. For styles that only apply inside the layout, add styles for `.begin-examples ~ * { }` and then reset them with `.end-examples ~ * { }`
+This example and the [source][src] intentionally keep any other fancy styling to a minimum, but it is very easy to style the two column layout. For styles that only apply inside the layout, add styles for `.begin-examples ~ * { }` and then reset them with `.end-examples ~ * { }`.
 
 
 
