@@ -1,0 +1,141 @@
+html {
+    font-size: 14px;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  color: #444;
+  margin: 0 0 10px;
+}
+
+p, ul, ol, table, pre, dl {
+  margin: 0 0 20px;
+}
+
+.wrapper {
+  max-width: 650px;
+  margin: 0 auto;
+  position: relative;
+  padding: 0 20px;
+}
+
+
+pre {
+  overflow-x: visible;
+}
+
+section {
+  max-width: 650px;
+  padding: 30px 0px 50px 0px;
+  margin: 20px 0;
+  margin-top: 70px;
+}
+
+
+/*----------------------------
+    Two column layout stuff
+  ---------------------------*/
+/* Main Section Headings and sub headings */
+article .begin-examples ~ h2,
+article .begin-examples ~ h2 + p {
+    width: 100%;
+    clear: both;
+}
+
+/* Columns */
+article .begin-examples ~ h3,
+article .begin-examples ~ p,
+article .begin-examples ~ .highlight {
+    width: 50%;
+}
+
+/* Left Column */
+article .begin-examples ~ h3,
+article .begin-examples ~ p {
+    float: left;
+    box-sizing: border-box;
+    padding-right: 1rem;
+    clear: both;
+}
+
+/* Right Column */
+article .begin-examples ~ .highlight {
+    float: right;
+    clear: right;
+    margin-bottom: 1rem;
+}
+
+/* Reset */
+article .end-examples ~ p,
+article .end-examples ~ h3,
+article .end-examples ~ .highlight {
+    width: auto;
+    float: none;
+    clear: none;
+}
+
+.end-examples {
+    clear: both;
+}
+
+@media print, screen and (max-width: 580px) {
+
+/*----------------------------
+    Two column layout media
+  ---------------------------*/
+article .begin-examples ~ h3,
+article .begin-examples ~ p,
+article .begin-examples ~ .highlight {
+    width: 100%;
+    float: none;
+    clear: none;
+}
+
+}
+
+
+/*----------------------------------------------------------
+    Other Styling
+    
+    Normally you would just put this in the sections above.
+  ---------------------------------------------------------*/
+
+h3 {
+    font-weight: normal;
+    text-size: 1rem;
+}
+
+
+.begin-examples ~ p {
+    font-style: italic;
+    font-size: 0.9rem;
+}
+
+.end-examples ~ p {
+    font-style: normal;
+    font-size: 1rem;
+}
+
+/*----------------------------
+    Other media
+  ---------------------------*/
+@media print, screen and (max-width: 580px) {
+article > h3,
+article > p {
+    padding: 0;
+    margin-bottom: 0.2rem;
+}
+
+article .highlight {
+    margin-bottom: 1.4rem;
+    background: #f7f7f7;
+    padding: 0.2rem;
+    
+    word-wrap: break-word;
+}
+
+article .highlight pre {
+    margin-bottom: 0;
+}
+
+}
