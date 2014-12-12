@@ -12,5 +12,5 @@ The example uses uses [Jekyll](http://jekyllrb.com). Simply run: `$ jekyll build
 [bennu]: http://bennu-js.com
 
 [src]: https://github.com/mattbierner/markdown-two-column-documentation-example
-[index]: https://github.com/mattbierner/markdown-two-column-documentation-example/blob/master/index.md
+[index]: https://raw.githubusercontent.com/mattbierner/markdown-two-column-documentation-example/master/index.md
 [style]: https://github.com/mattbierner/markdown-two-column-documentation-example/blob/master/stylesheets/styles.css
