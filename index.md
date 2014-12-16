@@ -46,7 +46,7 @@ This text, along with the title, remains in a single column
 ### Each point in a section starts with an `h3`.
 
 ```
-### Main you want to make point here
+### Main point you want to make here
 ```
 
 ### Normal text elements (`p`) are used for more detailed explanations. 
@@ -109,7 +109,7 @@ article .begin-examples ~ p {
 }
 ```
 
-### While the right column has only the code examples `.highlight`.
+### While the right column has only the code examples (`.highlight`).
 And some spacing between the sections.
 
 ```
